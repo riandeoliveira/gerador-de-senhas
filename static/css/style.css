@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        
+:root {
+    --azul-padrao: #006ef5ab;
+    --azul-fraco: #0070F5;
+}
+
+body {
+    background-color: #121214;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#senhaGerada {
+    font-size: 2em;
+}
+
+#botaoCopia {
+    background-color: var(--azul-padrao);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#botaoCopia:hover {
+    background-color: var(--azul-fraco);
+    transition-duration: 0.5s;
+}
+
+.link-externo {
+    color: var(--azul-padrao);
+}
+
+.link-externo:hover {
+    color: var(--azul-fraco);
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
